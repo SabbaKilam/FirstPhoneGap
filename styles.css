@@ -16,13 +16,13 @@ body{
     right: 0;
     margin: auto;
     text-align: center;
-    padding: 1%;
-    font-size: 1rem;
+    padding: 5px;
+    font-size: 4rem;
     color: white;
     background-color: teal;
     font-family: sans-serif;
+    font-weight: bold;
     opacity: 0.5;
-    
 }
 
 .banner-top{
