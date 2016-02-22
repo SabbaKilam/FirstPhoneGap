@@ -1,37 +1,62 @@
 /*
     Author: Abbas Abdulmalik
-    Creation Date: 
+    Creation Date: February 15, 2016
     Title: First Phone gap app
-    Revised:
+    Revised: February 22, 2016
     Purpose: get used to phone gap
     Notes:
 */
 body{
     background-color: lightblue;
 }
+#frontPanel{
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: lightgray;
+    z-index: 1;
+}
+#backPanel{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;    
+    background-color: gray;
+    z-index: 0;
+}
 
 .banner{
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
     padding: 5px;
-    font-size: 4rem;
-    color: white;
+    font-size: 2rem;
+    color: lightblue;
     background-color: teal;
     font-family: sans-serif;
     font-weight: bold;
-    opacity: 0.5;
+    z-index: 2;
 }
 
 .banner-top{
     top:0;
+
 }
 .banner-bottom{
     bottom: 0;
+   
 }
 
+#menu{
+    float: left;
+    padding-left:10px;
+    cursor: pointer;
+}
 
 
 
